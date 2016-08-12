@@ -1,0 +1,52 @@
+
+
+body{
+	max-width: 1080px; /*this is needed for flexible box style*/
+	display:-webkit-box; /*this is needed for flexible box model; it says about a special tool box/kit that holds some flexible boxes*/
+	/*and this will not work in all the browser*/
+	margin-top: 20px;
+	margin-left: 40px;
+}
+
+	#big_guy{
+	/*width:100%; /*this is needed for flexible box style*/
+	display:-webkit-box; /*this is needed for flexible box model; it says about a special tool box/kit that holds some flexible boxes*/
+	/*and this will not work in all the browser*/
+	-webkit-box-orient: vertical; /*each child under big_guy will be shown as a box place vertical*/
+	-webkit-box-flex: 1; /*the value of the website width/height is flexible*/
+	 }
+
+#main_section{ /*under section_div are main section and side news*/
+-webkit-box-flex: 1;
+display:-webkit-box;
+/*margin:20px;*/
+position: relative;
+margin: 0px;
+padding:0px;
+margin-top: 5px;
+border: 3px solid black;
+border-radius: 10px;
+height: 530px;
+}
+
+#content{ /*under section_div are main section and side news*/
+-webkit-box-flex: 1;
+display:-webkit-box;
+/*margin:20px;*/
+margin: 0px;
+padding:0px;
+-webkit-box-orient: vertical;
+padding:5px;
+}
+
+/*margin:0 0 0 0 means margin: north east south west*/
+
+p{
+line-height:170%;
+font-family: Arial;
+font-size: 16px;
+}
+
+/*#main_section div:not(#home){ //hide done with jquery; no need here
+display: none;
+}*/

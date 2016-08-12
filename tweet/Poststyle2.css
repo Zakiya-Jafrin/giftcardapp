@@ -1,0 +1,43 @@
+
+
+#whole{
+position: relative;
+padding:0px;
+margin: 0px;
+-webkit-box-flex: 1;
+-webkit-box-orient: horizontal;
+display:-webkit-box;
+overflow:scroll;
+}
+
+#show{
+position: relative;
+padding:0px;
+margin: 0px;
+
+}
+/*overflow:auto;*/
+/*min-width: 500px;*/
+
+
+#showcontainer{
+	position: relative;
+	margin: 0px;
+-webkit-box-flex: 1;
+-webkit-box-orient: vertical;
+display:-webkit-box;
+padding:0px;
+
+}
+
+
+#form{ /*under section_div are main section and side news*/
+position: fixed;
+padding:5px;
+margin: 15px;
+margin-top: -10px;
+border: 3px solid black;
+border-radius: 10px;
+
+
+}
